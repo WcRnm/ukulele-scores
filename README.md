@@ -12,3 +12,4 @@ Ukulele music scores/tabs created using [MuseScore 3](https://musescore.org).
 | Chant for the Seasons | Czech folk song | [pdf](pdf/chant-for-the-seasons.pdf) | [mscz](pdf/chant-for-the-seasons.pdf) | | Singing In the Living Tradition  #73 |
 | For All That is Our Life | Patrick Rickey & Bruce Findlow | [pdf](For_All_That_Is_Our_Life.mscz) | [mscz](pdf/for-all-that-is-our-life.pdf) | | Singing in the Living Tradition #128 |
 | Linus & Lucy | Vince Guaraldi | [pdf](pdf/linus-and-lucy-uke.pdf) | [mscz](Linus_and_Lucy-Uke.mscz) | [yt](https://youtu.be/Y88OOIEveM4) | |
+| We Are Going to be Friends | White Stripes | [pdf](pdf/we-are-going-to-be-friends.pdf) | [mscz](We_Are_Going_To_Be_Friends.mscz) | | |
