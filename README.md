@@ -14,3 +14,4 @@ Ukulele music scores/tabs created using [MuseScore 3](https://musescore.org).
 | Linus & Lucy | Vince Guaraldi | [pdf](pdf/linus-and-lucy-uke.pdf) | [mscz](Linus_and_Lucy-Uke.mscz) | [yt](https://youtu.be/Y88OOIEveM4) | GCEA | |
 | We Are Going to be Friends | White Stripes | [pdf](pdf/we-are-going-to-be-friends.pdf) | [mscz](We_Are_Going_To_Be_Friends.mscz) | | GCEA | |
 | Wild Mountain Thyme | Traditional | [pdf](pdf/wild-mountain-thyme.pdf) | [mscz](pdf/wild-mountain-thyme.pdf) | [yt](https://youtu.be/RXyDQudbHcs) | gCEA | Arranged by [Helmut Bickel](https://www.youtube.com/user/helmutbickel) |
+| Voice Still and Small | John Corrado | [pdf](pdf/voice-still-and-small.pdf) | [mscz](Voice_Still_and_Small.mscz) | | GCEA | Singing in the Living Tradition #391 |
