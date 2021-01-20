@@ -18,6 +18,7 @@ Ukulele music scores/tabs created using [MuseScore 3](https://musescore.org).
 | ----- | -------- | ----- | ------ | ------ | ------ | ----- |
 | Malihini Mele | R. Alex Anderson | [pdf](pdf/anderson-malihini-mele.pdf) | [mscz](anderson-malihini-mele.mscz) |  | GCEA | v0.2 Modern Ukulele Solos, Art King |
 | Slack Key #2 (Mahina's Trot) | Sonny Chillingworth | [pdf](pdf/chillingworth-slack-key-#2.pdf) | [mscz](chillingworth-slack-key-#2.mscz) | [yt](https://youtu.be/aumrfY4ppWI) | DGCD | Adapted from [Ozzie Kotani's guitar tabs](https://ozziekotani.com/slack-key-tablature/) |
+| Guava Jam | Ka'au Crater Boys | [pdf](pdf/guava-jam.pdf) | [mscz](Guava_Jam.mscz) | [yt-1](https://youtu.be/ue_UwwCVGhw) [yt-2](https://youtu.be/l54XsNm0vok)] gCEA | WIP, Arranged by [Aaron](https://www.hawaiimusicschool.com/)
 
 ## Folk
 
