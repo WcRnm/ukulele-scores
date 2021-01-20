@@ -10,3 +10,4 @@ Ukulele music scores/tabs created using [MuseScore 3](https://musescore.org).
 | Autobahn | Kraftwerk | [pdf](pdf/kraftwerk-autobahn.pdf) | [mscz](kraftwerk-autobahn.mscz) | [yt](https://www.youtube.com/watch?v=hddaUYW2dko) | Work in progress |
 | Slack Key #2, Mahina's Trot | Sonny Chillingworth | [pdf](pdf/chillingworth-slack-key-#2.pdf) | [mscz](chillingworth-slack-key-#2.mscz) | [yt](https://youtu.be/aumrfY4ppWI) | Adapted from [Ozzie Kotani's guitar tabs](https://ozziekotani.com/slack-key-tablature/) |
 | Chant for the Seasons | Czech folk song | [pdf](pdf/chant-for-the-seasons.pdf) | [mscz](pdf/chant-for-the-seasons.pdf) | | Singing In the Living Tradition  #73 |
+| For All That is Our Life | Patrick Rickey & Bruce Findlow | [pdf](For_All_That_Is_Our_Life.mscz) | [mscz](pdf/for-all-that-is-our-life.pdf) | | Singing in the Living Tradition #128 |
