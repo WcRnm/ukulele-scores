@@ -20,6 +20,7 @@ Ukulele music scores/tabs created using [MuseScore 3](https://musescore.org).
 | Slack Key #2 (Mahina's Trot) | Sonny Chillingworth | [pdf](pdf/chillingworth-slack-key-2.pdf) | [yt](https://youtu.be/aumrfY4ppWI) | DGCD | Adapted from [Ozzie Kotani's guitar tabs](https://ozziekotani.com/slack-key-tablature/) |
 | Liloa's Mele (Grandson's Lulabye) | Sonny Chillingworth | [pdf](pdf/chillingworth-liloas-mele.pdf) | [yt](https://youtu.be/JfoGq527LuY) | DGCD | Adapted from [Ozzie Kotani's guitar tabs](https://ozziekotani.com/slack-key-tablature/) |
 | Guava Jam | Ka'au Crater Boys | [pdf](pdf/guava-jam.pdf) | [yt-1](https://youtu.be/ue_UwwCVGhw) [yt-2](https://youtu.be/l54XsNm0vok) | gCEA | WIP, Arranged by [Aaron](https://www.hawaiimusicschool.com/)
+| Mama E | Ledward Kaapana | [pdf](pdf/Mama_E_low-g.pdf) | [yt-1](https://youtu.be/CZNSm7N-tjc) [yt-2](https://youtu.be/gTE_mK5GwUk) | Low G | arr: Dan Uke. |
 
 ## Folk
 
