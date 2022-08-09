@@ -28,6 +28,12 @@ Ukulele music scores/tabs created using [MuseScore 3](https://musescore.org).
 | ----- | -------- | ----- | ------ | ------ | ----- |
 | Wild Mountain Thyme | Traditional | [pdf](pdf/wild-mountain-thyme.pdf) | [yt](https://youtu.be/RXyDQudbHcs) | gCEA | Arranged by [Helmut Bickel](https://www.youtube.com/user/helmutbickel) |
 
+## Classical
+
+| Title | Composer | Print | Listen | Tuning | Notes |
+| ----- | -------- | ----- | ------ | ------ | ----- |
+| Noli Me Tangere | Simen Kjaersdalen | [pdf](pdf/Noli_Me_Tangere.pdf) | [yt](https://youtu.be/RhYwOiEAno0) | GCEA | [UU Undergound Discussion](https://forum.ukuleleunderground.com/index.php?threads/noli-me-tangere.155038/) |
+
 ## Unitarian-Universalist
 
 | Title | Composer | Print | Tuning | Notes |
