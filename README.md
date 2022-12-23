@@ -1,5 +1,5 @@
 # ukulele-scores
 
-Ukulele music scores/tabs created using [MuseScore 3](https://musescore.org).
+Ukulele music scores/tabs created using [MuseScore](https://musescore.org).
 
-PDF's are published on [ukulele-scores](https://sites.google.com/view/ukulele-scores)
+PDF's are published on [https://ukulele-scores.netlify.app](https://ukulele-scores.netlify.app)
