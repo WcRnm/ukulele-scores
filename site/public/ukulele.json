@@ -5,13 +5,13 @@
         "tuning"    : "Low G",
         "composer"  : "Freddie Mercury (Queen)",
         "arranger"  : "Jeremy Choi, Kevin Hearle",
-        "pdf"       : "https://drive.google.com/file/d/1waMa3d5RGCPorcPGUtvTIKqKVjN-mQcd"
+        "pdf"       : "pdf/queen_love-of-my-life.pdf"
       },
       { "name"      : "Autobahn",
         "tuning"    : "High G",
         "composer"  : "Kraftwerk",
         "arranger"  : null,
-        "pdf"       : "https://drive.google.com/file/d/1lURuov-yM_6WR0ApekOlS7Twl-MWEKLs",
+        "pdf"       : "pdf/kraftwerk-autobahn.pdf",
         "yt"        : "https://www.youtube.com/watch?v=hddaUYW2dko",
         "wip"       : true
       },
@@ -19,15 +19,15 @@
         "tuning"    : "Low G",
         "composer"  : "Vince Guaraldi",
         "arranger"  : null,
-        "pdf"        : "https://drive.google.com/file/d/1CSTnJKzWtDrpQcGUX0L2HEMdo0Loec0A/view?usp=sharing",
-        "yt"       : "https://youtu.be/Y88OOIEveM4",
+        "pdf"       : "pdf/linus-and-lucy-uke.pdf",
+        "yt"        : "https://youtu.be/Y88OOIEveM4",
         "wip"       : true
       },
       { "name"      : "We Are Going to be Friends",
         "tuning"    : "Low G",
         "composer"  : "White Stripes",
         "arranger"  : null,
-        "pdf"       : "https://drive.google.com/file/d/1ggvFTjeFtWX1lAgpZBmN5E8SDvdF-P7k/view?usp=sharing",
+        "pdf"       : "pdf/we-are-going-to-be-friends.pdf",
         "yt"        : "https://youtu.be/CdYpv87ycgw",
         "wip"       : false
       }
@@ -39,7 +39,7 @@
         "tuning"    : "High G",
         "composer"  : "R. Alex Anderson",
         "arranger"  : "Art King",
-        "pdf"       : "https://drive.google.com/file/d/1QsaHD2ki9CXIDc7Qvj0WMOmZQvvJN5c-/view?usp=sharing",
+        "pdf"       : "pdf/anderson_malihini-mele.pdf",
         "yt"        : null,
         "wip"       : false,
         "notes"     : "Modern Ukulele Solos, Art King"
@@ -48,7 +48,7 @@
         "tuning"    : "Taropatch",
         "composer"  : "Sonny Chillingworth",
         "arranger"  : "",
-        "pdf"       : "https://drive.google.com/file/d/1C0xb86aeM2n_RBPEE0rtp2KRgDfESWN3/view?usp=sharing",
+        "pdf"       : "pdf/chillingworth-slack-key-2.pdf",
         "yt"        : "https://youtu.be/aumrfY4ppWI",
         "wip"       : false,
         "notes"     : "Adapted from Ozzie Kotani's guitar tabs"
@@ -57,7 +57,7 @@
         "tuning"    : "Taropatch",
         "composer"  : "Sonny Chillingworth",
         "arranger"  : "",
-        "pdf"       : "https://drive.google.com/file/d/1CWUqHgbNXoLzkprd0UJ7LpS6mboqGCAD/view?usp=sharing",
+        "pdf"       : "pdf/chillingworth-liloas-mele.pdf",
         "yt"        : "https://youtu.be/JfoGq527LuY",
         "wip"       : false,
         "notes"     : "Adapted from Ozzie Kotani's guitar tabs"
@@ -66,7 +66,7 @@
         "tuning"    : "High G",
         "composer"  : "Ka'au Crater Boys",
         "arranger"  : "",
-        "pdf"       : "https://drive.google.com/file/d/1jb1hhDp5ibHEN7EhESOwgoZhwyF3AgZE/view?usp=sharing",
+        "pdf"       : "pdf/guava-jam.pdf",
         "yt"        : null,
         "wip"       : true,
         "notes"     : ""
@@ -75,7 +75,7 @@
         "tuning"    : "Low G",
         "composer"  : "Ledward Kaapana",
         "arranger"  : "Dan Uke",
-        "pdf"       : "https://drive.google.com/file/d/1dpp-aRdObLpW3rX5ud8n63QKGAqB2u7h/view?usp=sharing",
+        "pdf"       : "pdf/Mama_E_low-g.pdf",
         "yt"        : null,
         "wip"       : false,
         "notes"     : ""
@@ -84,7 +84,7 @@
         "tuning"    : "Low G",
         "composer"  : "Duc Huy",
         "arranger"  : "",
-        "pdf"       : "https://drive.google.com/file/d/1UFdEaT8qHUZmd2lW63vXnSATip82ObVe/view?usp=sharing",
+        "pdf"       : "pdf/White_Sandy_Beach.pdf",
         "yt"        : null,
         "wip"       : false,
         "notes"     : ""
@@ -97,21 +97,20 @@
         "tuning"    : "High G",
         "composer"  : "",
         "arranger"  : "Helmut Bickel",
-        "pdf"       : "https://drive.google.com/file/d/1ji7UrLWYFCzazRAIPdiVagIhBeJ9wJ-m/view?usp=sharing",
+        "pdf"       : "pdf/wild-mountain-thyme.pdf",
         "yt"        : "https://youtu.be/RXyDQudbHcs",
         "wip"       : false,
         "notes"     : ""
       }
     ]
   },
-  {
-    "genre" : "Classical",
+  { "genre" : "Classical",
     "tunes" : [
       { "name"      : "Noli Me Tangere",
         "tuning"    : "Low G",
         "composer"  : "Simen Kjaersdalen",
         "arranger"  : "",
-        "pdf"       : "https://drive.google.com/file/d/1oFiNccn6oKviXLd5aUxKfuQrjy2GTGYu/view?usp=sharing",
+        "pdf"       : "pdf/Noli_Me_Tangere.pdf",
         "yt"        : "https://youtu.be/RhYwOiEAno0",
         "wip"       : false,
         "notes"     : ""
@@ -119,14 +118,13 @@
       
     ]
   },
-  {
-    "genre" : "Unitarian-Universalist",
+  { "genre" : "Unitarian-Universalist",
     "tunes" : [
       { "name"      : "Chant for the Seasons",
         "tuning"    : "Low G",
         "composer"  : "Czech folk song",
         "arranger"  : "",
-        "pdf"       : "https://drive.google.com/file/d/10FZRWwZ8S64DlpCJpXi2ZyXsqHbm5eUk/view?usp=sharing",
+        "pdf"       : "pdf/chant-for-the-seasons.pdf",
         "yt"        : null,
         "wip"       : false,
         "notes"     : "Singing In the Living Tradition #73"
@@ -135,7 +133,7 @@
         "tuning"    : "Low G",
         "composer"  : "Patrick Rickey & Bruce Findlow",
         "arranger"  : "",
-        "pdf"       : "https://drive.google.com/file/d/1Y2OWU38zIojH69TUg92F0Nuvti-jzwKT/view?usp=sharing",
+        "pdf"       : "pdf/for-all-that-is-our-life.pdf",
         "yt"        : null,
         "wip"       : false,
         "notes"     : "Singing in the Living Tradition #128"
@@ -144,7 +142,7 @@
         "tuning"    : "Low G",
         "composer"  : "John Corrado",
         "arranger"  : "",
-        "pdf"       : "https://drive.google.com/file/d/1kPwF1XRUnSbg3NWxgTZANzGu-a5HEx8G/view?usp=sharing",
+        "pdf"       : "pdf/voice-still-and-small.pdf",
         "yt"        : null,
         "wip"       : false,
         "notes"     : "Singing in the Living Tradition #391"
