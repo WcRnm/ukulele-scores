@@ -35,6 +35,15 @@
   },
   { "genre" : "Hawaiian",
     "tunes" : [
+      { "name"      : "Ka Ipo Lei Manu",
+        "tuning"    : "High G",
+        "composer"  : "Queen Kapiʻolani",
+        "arranger"  : "John King",
+        "pdf"       : "pdf/Ka_Ipo_Lei_Manu.pdf",
+        "yt"        : "",
+        "wip"       : false,
+        "notes"     : ""
+      },
       { "name"      : "Malihini Mele",
         "tuning"    : "High G",
         "composer"  : "R. Alex Anderson",
