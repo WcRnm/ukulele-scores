@@ -1,3 +1,17 @@
+const pages = [
+  "ukulele",
+  "bass",
+  "about"
+];
+
+function onShow(page) {
+  console.log(page);
+
+  pages.forEach(p => {
+    document.getElementById(p).style.display = (p == page) ? 'block' : 'none';
+  });
+}
+
 function Cell(type, text, url) {
   var cell = document.createElement(type);
   if (url) {
@@ -13,14 +27,14 @@ function Cell(type, text, url) {
   return cell;
 }
 
-function handleTableData(data) {
+function handleTableData(section, data) {
     data.forEach(function (item, index) {
-      var content = document.getElementById('scores')
+      var content = document.getElementById(section)
       var div = document.createElement('div');
       div.classList.add("card")
       content.appendChild(div);
 
-      var h2 = document.createElement('H2');
+      var h2 = document.createElement('h3');
       h2.innerHTML = item.genre;
       h2.classList.add("content-title");
       div.appendChild(h2);
@@ -58,7 +72,7 @@ function createTable() {
     try {
         fetch('ukulele.json')
         .then(response => response.json())
-        .then(data => handleTableData(data))
+        .then(data => handleTableData('ukulele', data))
         .catch(error => console.error(error));
     }
     catch (error) {
@@ -66,7 +80,6 @@ function createTable() {
     }
 
   }
- 
-  halfmoon.toggleDarkMode();
+
   createTable();
   

@@ -1,15 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <meta name="viewport" content="width=device-width" />
+
+  <link rel="icon" href="img/favicon-32x32.png">
   <title>Ukulele Scores</title>
-  <link href="css/halfmoon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
 </head>
 <body>
-  <div class="content" id="scores">
-    <h1 class="content-title">Ukulele Scores</h1>
-  </div>
-  <script src="js/halfmoon.js"></script>
+  <h1>Ukulele-Scores</h1>
+  <button onclick="onShow('ukulele')">Ukulele</button>
+  <button onclick="onShow('bass')">Bass</button>
+  <button onclick="onShow('about')">About</button>
+
+  <article id="ukulele"><h2>Ukulele</h2></article>
+  <article id="bass" hidden><h2>Bass</h2>FUTURE</article>
+  <article id="about" hidden><h2>About</h2>
+    <p>Welcome to Ukulele-Scores. This site contains musical scores for the ukulele that I have created using
+    the open source <a href="https://musescore.org" target="_tunes">Musescore</a> notation app.</p>
+
+    <p>The Musescore files and the source code for this website are in a
+    <a href="https://github.com/WcRnm/ukulele-scores" target="_tunes">Github repository</a>.</p>
+
+    <p>Thanks for visiting. ~R</p>
+  </article>
+
   <script src="js/scores.js"></script>
 </body>
 </html>
