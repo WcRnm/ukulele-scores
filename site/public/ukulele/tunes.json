@@ -5,13 +5,13 @@
         "tuning"    : "Low G",
         "composer"  : "Freddie Mercury (Queen)",
         "arranger"  : "Jeremy Choi, Kevin Hearle",
-        "pdf"       : "pdf/queen_love-of-my-life.pdf"
+        "pdf"       : "queen_love-of-my-life.pdf"
       },
       { "name"      : "Autobahn",
         "tuning"    : "High G",
         "composer"  : "Kraftwerk",
         "arranger"  : null,
-        "pdf"       : "pdf/kraftwerk-autobahn.pdf",
+        "pdf"       : "kraftwerk-autobahn.pdf",
         "yt"        : "https://www.youtube.com/watch?v=hddaUYW2dko",
         "wip"       : true
       },
@@ -19,7 +19,7 @@
         "tuning"    : "Low G",
         "composer"  : "Vince Guaraldi",
         "arranger"  : null,
-        "pdf"       : "pdf/linus-and-lucy-uke.pdf",
+        "pdf"       : "linus-and-lucy-uke.pdf",
         "yt"        : "https://youtu.be/Y88OOIEveM4",
         "wip"       : true
       },
@@ -27,7 +27,7 @@
         "tuning"    : "Low G",
         "composer"  : "White Stripes",
         "arranger"  : null,
-        "pdf"       : "pdf/we-are-going-to-be-friends.pdf",
+        "pdf"       : "we-are-going-to-be-friends.pdf",
         "yt"        : "https://youtu.be/CdYpv87ycgw",
         "wip"       : false
       }
@@ -39,7 +39,7 @@
         "tuning"    : "High G",
         "composer"  : "Queen Kapiʻolani",
         "arranger"  : "John King",
-        "pdf"       : "pdf/Ka_Ipo_Lei_Manu.pdf",
+        "pdf"       : "Ka_Ipo_Lei_Manu.pdf",
         "yt"        : "",
         "wip"       : false,
         "notes"     : ""
@@ -48,7 +48,7 @@
         "tuning"    : "High G",
         "composer"  : "R. Alex Anderson",
         "arranger"  : "Art King",
-        "pdf"       : "pdf/anderson_malihini-mele.pdf",
+        "pdf"       : "anderson_malihini-mele.pdf",
         "yt"        : null,
         "wip"       : false,
         "notes"     : "Modern Ukulele Solos, Art King"
@@ -57,7 +57,7 @@
         "tuning"    : "Taropatch",
         "composer"  : "Sonny Chillingworth",
         "arranger"  : "",
-        "pdf"       : "pdf/chillingworth-slack-key-2.pdf",
+        "pdf"       : "chillingworth-slack-key-2.pdf",
         "yt"        : "https://youtu.be/aumrfY4ppWI",
         "wip"       : false,
         "notes"     : "Adapted from Ozzie Kotani's guitar tabs"
@@ -66,7 +66,7 @@
         "tuning"    : "Taropatch",
         "composer"  : "Sonny Chillingworth",
         "arranger"  : "",
-        "pdf"       : "pdf/chillingworth-liloas-mele.pdf",
+        "pdf"       : "chillingworth-liloas-mele.pdf",
         "yt"        : "https://youtu.be/JfoGq527LuY",
         "wip"       : false,
         "notes"     : "Adapted from Ozzie Kotani's guitar tabs"
@@ -75,7 +75,7 @@
         "tuning"    : "High G",
         "composer"  : "Ka'au Crater Boys",
         "arranger"  : "",
-        "pdf"       : "pdf/guava-jam.pdf",
+        "pdf"       : "guava-jam.pdf",
         "yt"        : null,
         "wip"       : true,
         "notes"     : ""
@@ -84,7 +84,7 @@
         "tuning"    : "Low G",
         "composer"  : "Ledward Kaapana",
         "arranger"  : "Dan Uke",
-        "pdf"       : "pdf/Mama_E_low-g.pdf",
+        "pdf"       : "Mama_E_low-g.pdf",
         "yt"        : null,
         "wip"       : false,
         "notes"     : ""
@@ -93,7 +93,7 @@
         "tuning"    : "Low G",
         "composer"  : "Duc Huy",
         "arranger"  : "",
-        "pdf"       : "pdf/White_Sandy_Beach.pdf",
+        "pdf"       : "White_Sandy_Beach.pdf",
         "yt"        : null,
         "wip"       : false,
         "notes"     : ""
@@ -106,7 +106,7 @@
         "tuning"    : "High G",
         "composer"  : "",
         "arranger"  : "Helmut Bickel",
-        "pdf"       : "pdf/wild-mountain-thyme.pdf",
+        "pdf"       : "wild-mountain-thyme.pdf",
         "yt"        : "https://youtu.be/RXyDQudbHcs",
         "wip"       : false,
         "notes"     : ""
@@ -119,7 +119,7 @@
         "tuning"    : "Low G",
         "composer"  : "Simen Kjaersdalen",
         "arranger"  : "",
-        "pdf"       : "pdf/Noli_Me_Tangere.pdf",
+        "pdf"       : "Noli_Me_Tangere.pdf",
         "yt"        : "https://youtu.be/RhYwOiEAno0",
         "wip"       : false,
         "notes"     : ""
@@ -133,7 +133,7 @@
         "tuning"    : "Low G",
         "composer"  : "Czech folk song",
         "arranger"  : "",
-        "pdf"       : "pdf/chant-for-the-seasons.pdf",
+        "pdf"       : "chant-for-the-seasons.pdf",
         "yt"        : null,
         "wip"       : false,
         "notes"     : "Singing In the Living Tradition #73"
@@ -142,7 +142,7 @@
         "tuning"    : "Low G",
         "composer"  : "Patrick Rickey & Bruce Findlow",
         "arranger"  : "",
-        "pdf"       : "pdf/for-all-that-is-our-life.pdf",
+        "pdf"       : "for-all-that-is-our-life.pdf",
         "yt"        : null,
         "wip"       : false,
         "notes"     : "Singing in the Living Tradition #128"
@@ -151,7 +151,7 @@
         "tuning"    : "Low G",
         "composer"  : "John Corrado",
         "arranger"  : "",
-        "pdf"       : "pdf/voice-still-and-small.pdf",
+        "pdf"       : "voice-still-and-small.pdf",
         "yt"        : null,
         "wip"       : false,
         "notes"     : "Singing in the Living Tradition #391"

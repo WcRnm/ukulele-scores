@@ -12,12 +12,12 @@ function onShow(page) {
   });
 }
 
-function Cell(type, text, url) {
+function Cell(type, text, url, section) {
   var cell = document.createElement(type);
   if (url) {
     var a = document.createElement('a');
     a.classList.add('hyperlink');
-    a.href = url;
+    a.href = section + '/' + url;
     a.innerHTML = text;
     a.target= '_tunes';
     cell.appendChild(a);
@@ -58,7 +58,7 @@ function handleTableData(section, data) {
 
       item.tunes.forEach(function(tune, index) {
         const tr = document.createElement('tr');
-        tr.appendChild(Cell('th', tune.name, tune.pdf));
+        tr.appendChild(Cell('th', tune.name, tune.pdf, section));
         tr.appendChild(Cell('td', tune.composer));
         tr.appendChild(Cell('td', tune.tuning));
         tr.appendChild(Cell('td', tune.notes));
@@ -68,18 +68,19 @@ function handleTableData(section, data) {
     });
 }
 
-function createTable() {
+function createTable(name) {
     try {
-        fetch('ukulele.json')
+        const json_file = `${name}/tunes.json`;
+        fetch(json_file)
         .then(response => response.json())
-        .then(data => handleTableData('ukulele', data))
+        .then(data => handleTableData(name, data))
         .catch(error => console.error(error));
     }
     catch (error) {
         console.error(error);
     }
+}
 
-  }
-
-  createTable();
+createTable('ukulele');
+createTable('bass');
   
