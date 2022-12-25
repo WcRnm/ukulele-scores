@@ -28,6 +28,7 @@ function Cell(type, text, url, section) {
 }
 
 function handleTableData(section, data) {
+    const isUkulele = (section === 'ukulele');
     data.forEach(function (item, index) {
       var content = document.getElementById(section)
       var div = document.createElement('div');
@@ -51,8 +52,10 @@ function handleTableData(section, data) {
       const headerRow = document.createElement('tr');
       headerRow.appendChild(Cell('th', 'Tune'));
       headerRow.appendChild(Cell('th', 'Composer'));
-      headerRow.appendChild(Cell('th', 'Tuning'));
-      headerRow.appendChild(Cell('th', 'Notes'));
+      if (isUkulele) {
+        headerRow.appendChild(Cell('th', 'Tuning'));
+        headerRow.appendChild(Cell('th', 'Notes'));
+      }
       headerRow.appendChild(Cell('th', 'WIP'));
       thead.appendChild(headerRow);
 
@@ -60,8 +63,10 @@ function handleTableData(section, data) {
         const tr = document.createElement('tr');
         tr.appendChild(Cell('th', tune.name, tune.pdf, section));
         tr.appendChild(Cell('td', tune.composer));
-        tr.appendChild(Cell('td', tune.tuning));
-        tr.appendChild(Cell('td', tune.notes));
+        if (isUkulele) {
+          tr.appendChild(Cell('td', tune.tuning));
+          tr.appendChild(Cell('td', tune.notes));
+        }
         tr.appendChild(Cell('td', tune.wip ? "WIP" : ""));
         tbody.appendChild(tr);
       });

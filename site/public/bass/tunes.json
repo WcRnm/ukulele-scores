@@ -1,9 +1,25 @@
 [
   { "genre": "Rock/Pop",
     "tunes": [
-      { "name": "Walk of Life",
+      { "name"    : "Walk of Life",
         "composer": "Dire Straits",
-        "pdf": "Walk_Of_Life_BASS.pdf"
+        "pdf"     : "Walk_Of_Life_BASS.pdf"
+      },
+      { "name"    : "All My Loving",
+        "composer": "Beatles",
+        "pdf"     : "All_My_Loving_[Bass].pdf"
+      },
+      { "name"    : "From Me to You",
+        "composer": "Beatles",
+        "pdf"     : "From_Me_to_You(Bass).pdf"
+      },
+      { "name"    : "I Can't Help Falling In Love With You",
+        "composer": "UB40,  Hugo Peretti, Luigi Creatore, and George David Weiss",
+        "pdf"     : "I_Can't_Help_Falling_In_Love_With_You-BASS.pdf"
+      },
+      { "name"    : "Kingston Town",
+        "composer": "UB40, Lord Creator",
+        "pdf"     : "Kingston_Town_BASS.pdf"
       }
     ]
   }
