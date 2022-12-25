@@ -67,7 +67,7 @@ function handleTableData(section, data) {
           tr.appendChild(Cell('td', tune.tuning));
           tr.appendChild(Cell('td', tune.notes));
         }
-        tr.appendChild(Cell('td', tune.wip ? "WIP" : ""));
+        tr.appendChild(Cell('td', tune.wip ? "✔" : ""));
         tbody.appendChild(tr);
       });
     });
