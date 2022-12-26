@@ -56,7 +56,7 @@ function handleTableData(section, data) {
         headerRow.appendChild(Cell('th', 'Tuning'));
         headerRow.appendChild(Cell('th', 'Notes'));
       }
-      headerRow.appendChild(Cell('th', 'WIP'));
+      headerRow.appendChild(Cell('th', 'Version'));
       thead.appendChild(headerRow);
 
       item.tunes.forEach(function(tune, index) {
@@ -67,7 +67,7 @@ function handleTableData(section, data) {
           tr.appendChild(Cell('td', tune.tuning));
           tr.appendChild(Cell('td', tune.notes));
         }
-        tr.appendChild(Cell('td', tune.wip ? "✔" : ""));
+        tr.appendChild(Cell('td', tune.ver));
         tbody.appendChild(tr);
       });
     });

@@ -5,7 +5,8 @@
         "tuning"    : "Low G",
         "composer"  : "Freddie Mercury (Queen)",
         "arranger"  : "Jeremy Choi, Kevin Hearle",
-        "pdf"       : "queen_love-of-my-life.pdf"
+        "pdf"       : "queen_love-of-my-life.pdf",
+        "ver"       : "0.5"
       },
       { "name"      : "Autobahn",
         "tuning"    : "High G",
@@ -13,7 +14,7 @@
         "arranger"  : null,
         "pdf"       : "kraftwerk-autobahn.pdf",
         "yt"        : "https://www.youtube.com/watch?v=hddaUYW2dko",
-        "wip"       : true
+        "ver"       : "wip"
       },
       { "name"      : "Linus & Lucy",
         "tuning"    : "Low G",
@@ -21,7 +22,7 @@
         "arranger"  : null,
         "pdf"       : "linus-and-lucy-uke.pdf",
         "yt"        : "https://youtu.be/Y88OOIEveM4",
-        "wip"       : true
+        "ver"       : "wip"
       },
       { "name"      : "We Are Going to be Friends",
         "tuning"    : "Low G",
@@ -29,7 +30,7 @@
         "arranger"  : null,
         "pdf"       : "we-are-going-to-be-friends.pdf",
         "yt"        : "https://youtu.be/CdYpv87ycgw",
-        "wip"       : false
+        "ver"       : "1.0"
       }
     ]
   },
@@ -41,8 +42,8 @@
         "arranger"  : "John King",
         "pdf"       : "Ka_Ipo_Lei_Manu.pdf",
         "yt"        : "",
-        "wip"       : false,
-        "notes"     : ""
+        "ver"       : "",
+        "notes"     : "1.0"
       },
       { "name"      : "Malihini Mele",
         "tuning"    : "High G",
@@ -50,7 +51,7 @@
         "arranger"  : "Art King",
         "pdf"       : "anderson_malihini-mele.pdf",
         "yt"        : null,
-        "wip"       : false,
+        "ver"       : "0.3",
         "notes"     : "Modern Ukulele Solos, Art King"
       },
       { "name"      : "Slack Key #2 (Mahina's Trot)",
@@ -59,7 +60,7 @@
         "arranger"  : "",
         "pdf"       : "chillingworth-slack-key-2.pdf",
         "yt"        : "https://youtu.be/aumrfY4ppWI",
-        "wip"       : false,
+        "ver"       : "1.0",
         "notes"     : "Adapted from Ozzie Kotani's guitar tabs"
       },
       { "name"      : "Liloa's Mele (Grandson's Lulabye)",
@@ -68,7 +69,7 @@
         "arranger"  : "",
         "pdf"       : "chillingworth-liloas-mele.pdf",
         "yt"        : "https://youtu.be/JfoGq527LuY",
-        "wip"       : false,
+        "ver"       : "1.0",
         "notes"     : "Adapted from Ozzie Kotani's guitar tabs"
       },
       { "name"      : "Guava Jam",
@@ -77,26 +78,21 @@
         "arranger"  : "",
         "pdf"       : "guava-jam.pdf",
         "yt"        : null,
-        "wip"       : true,
-        "notes"     : ""
+        "ver"       : "wip"
       },
       { "name"      : "Mama E",
         "tuning"    : "Low G",
         "composer"  : "Ledward Kaapana",
         "arranger"  : "Dan Uke",
         "pdf"       : "Mama_E_low-g.pdf",
-        "yt"        : null,
-        "wip"       : false,
-        "notes"     : ""
+        "ver"       : ""
       },
       { "name"      : "White Sandy Beach",
         "tuning"    : "Low G",
         "composer"  : "Duc Huy",
         "arranger"  : "",
         "pdf"       : "White_Sandy_Beach.pdf",
-        "yt"        : null,
-        "wip"       : false,
-        "notes"     : ""
+        "ver"       : "1.2"
       }
     ]
   },
@@ -108,7 +104,7 @@
         "arranger"  : "Helmut Bickel",
         "pdf"       : "wild-mountain-thyme.pdf",
         "yt"        : "https://youtu.be/RXyDQudbHcs",
-        "wip"       : false,
+        "ver"       : "",
         "notes"     : ""
       }
     ]
@@ -121,7 +117,7 @@
         "arranger"  : "",
         "pdf"       : "Noli_Me_Tangere.pdf",
         "yt"        : "https://youtu.be/RhYwOiEAno0",
-        "wip"       : false,
+        "ver"       : "",
         "notes"     : ""
       }
       
@@ -135,7 +131,7 @@
         "arranger"  : "",
         "pdf"       : "chant-for-the-seasons.pdf",
         "yt"        : null,
-        "wip"       : false,
+        "ver"       : "",
         "notes"     : "Singing In the Living Tradition #73"
       },
       { "name"      : "For All That is Our Life",
@@ -144,7 +140,7 @@
         "arranger"  : "",
         "pdf"       : "for-all-that-is-our-life.pdf",
         "yt"        : null,
-        "wip"       : false,
+        "ver"       : "",
         "notes"     : "Singing in the Living Tradition #128"
       },
       { "name"      : "Voice Still and Small",
@@ -153,7 +149,7 @@
         "arranger"  : "",
         "pdf"       : "voice-still-and-small.pdf",
         "yt"        : null,
-        "wip"       : false,
+        "ver"       : "",
         "notes"     : "Singing in the Living Tradition #391"
       }
     ]
