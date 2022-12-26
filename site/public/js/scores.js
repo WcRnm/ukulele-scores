@@ -61,7 +61,7 @@ function handleTableData(section, data) {
 
       item.tunes.forEach(function(tune, index) {
         const tr = document.createElement('tr');
-        tr.appendChild(Cell('th', tune.name, tune.pdf, section));
+        tr.appendChild(Cell('th', tune.name, tune.pdf + '?' + (tune.ver ? tune.ver : "0"), section));
         tr.appendChild(Cell('td', tune.composer));
         if (isUkulele) {
           tr.appendChild(Cell('td', tune.tuning));
