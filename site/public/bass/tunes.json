@@ -27,5 +27,15 @@
         "ver"      : ""
       }
     ]
+  },
+  { "genre": "Yellow Book",
+    "tunes": [
+      { "name"     : "All My Loving",
+        "composer" : "Beatles",
+        "pdf"      : "du/[DU]_All_My_Loving_[Bass].pdf",
+        "ver"      : "1.0"
+      }
+    ]
+
   }
 ]
