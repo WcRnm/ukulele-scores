@@ -8,13 +8,15 @@
 
   <link rel="icon" href="img/favicon-32x32.png">
   <title>Ukulele Scores</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+  <link rel="stylesheet" href="https://unpkg.com/bamboo.css">
 </head>
 <body>
   <h1>Ukulele-Scores</h1>
-  <button onclick="onShow('ukulele')">Ukulele</button>
-  <button onclick="onShow('bass')">Bass</button>
-  <button onclick="onShow('about')">About</button>
+  <article>
+    <button onclick="onShow('ukulele')">Ukulele</button>
+    <button onclick="onShow('bass')">Bass</button>
+    <button onclick="onShow('about')">About</button>
+  </article>
 
   <article id="ukulele"><h2>Ukulele</h2></article>
   <article id="bass" hidden><h2>Bass</h2></article>
@@ -28,7 +30,7 @@
     <p>This site
       <ul>
         <li>is hosted on <a href="https://www.netlify.com/">Netlify</a>.</li>
-        <li>uses <a href="https://watercss.kognise.dev/">Water.css</a> for styling.</li>
+        <li>uses <a href="https://github.com/rilwis/bamboo">Bamboo CSS</a> for styling.</li>
       </ul>
     </p>
 
