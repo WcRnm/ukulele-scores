@@ -119,8 +119,13 @@
         "yt"        : "https://youtu.be/RhYwOiEAno0",
         "ver"       : "",
         "notes"     : ""
+      },
+      { "name"      : "Etude no 22, op 35 - B Minor Etude",
+        "tuning"    : "Baritone",
+        "composer"  : "Fernando Sor",
+        "pdf"       : "Etude_no_22_op_35 [Baritone].pdf",
+        "ver"       : "1.0"
       }
-      
     ]
   },
   { "genre" : "Unitarian-Universalist",
@@ -147,7 +152,7 @@
         "tuning"    : "Low G",
         "composer"  : "John Corrado",
         "arranger"  : "",
-        "pdf"       : "voice-still-and-small.pdf",
+        "pdf"       : "Voice_Still_and_Small.pdf",
         "yt"        : null,
         "ver"       : "1.0",
         "notes"     : "Singing in the Living Tradition #391"
