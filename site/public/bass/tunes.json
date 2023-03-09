@@ -49,6 +49,12 @@
         "composer" : "Lee Hazlewood",
         "pdf"      : "du/[DU]_TheseBootsWereMadeForWalking.pdf",
         "ver"      : "1.0"
+      },
+      { "name"      : "Last Train To Clarksville",
+        "composer"  : "Bobby Hart & Tommy Boyce",
+        "pdf"       : "du/[DU]Last_Train_To_Clarksville[Bass].pdf",
+        "ver"       : "1,0"
+
       }
     ]
 
