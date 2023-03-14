@@ -1,6 +1,11 @@
 [
   { "genre": "Rock/Pop",
     "tunes": [
+      { "name"     : "Daily Ukulele Bass Tabs",
+        "composer" : "arr: Rory McLeod",
+        "pdf"      : "Daily_Ukulele_Bass_Tabs.pdf",
+        "ver"      : "1.0"
+      },
       { "name"     : "Walk of Life",
         "composer" : "Dire Straits",
         "pdf"      : "Walk_Of_Life_BASS.pdf",
@@ -27,36 +32,5 @@
         "ver"      : ""
       }
     ]
-  },
-  { "genre": "Yellow Book",
-    "tunes": [
-      { "name"     : "All My Loving",
-        "composer" : "Beatles",
-        "pdf"      : "du/[DU]_All_My_Loving_[Bass].pdf",
-        "ver"      : "1.0"
-      },
-      { "name"     : "Eight Days a Week",
-        "composer" : "Beatles",
-        "pdf"      : "du/[DU]_Eight_Days_A_Week_[Bass].pdf",
-        "ver"      : "1.0"
-      },
-      { "name"     : "Yellow Submarine",
-        "composer" : "Beatles",
-        "pdf"      : "du/[DU]_Yellow_Submarine.pdf",
-        "ver"      : "1.0"
-      },
-      { "name"     : "These Boots Were Made For Walking",
-        "composer" : "Lee Hazlewood",
-        "pdf"      : "du/[DU]_TheseBootsWereMadeForWalking.pdf",
-        "ver"      : "1.0"
-      },
-      { "name"      : "Last Train To Clarksville",
-        "composer"  : "Bobby Hart & Tommy Boyce",
-        "pdf"       : "du/[DU]Last_Train_To_Clarksville[Bass].pdf",
-        "ver"       : "1,0"
-
-      }
-    ]
-
   }
 ]
