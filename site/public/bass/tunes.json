@@ -6,6 +6,11 @@
         "pdf"      : "Daily_Ukulele_Bass_Tabs.pdf",
         "ver"      : "1.1"
       },
+      { "name"     : "Beatles Bass Tabs",
+        "composer" : "arr: Rory McLeod",
+        "pdf"      : "Beatles_Bass_Tabs.pdf",
+        "ver"      : "1.1"
+      },
       { "name"     : "Walk of Life",
         "composer" : "Dire Straits",
         "pdf"      : "Walk_Of_Life_BASS.pdf",
