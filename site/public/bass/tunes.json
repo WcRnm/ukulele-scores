@@ -37,5 +37,15 @@
         "ver"      : ""
       }
     ]
+  },
+  { "genre" : "Walking Bass",
+    "tunes" : [
+      {
+        "name"    : "WBL, Module 1, Autumn Leaves",
+        "composer": "",
+        "pdf"     : "WalkingBassLessons-M1-AutumnLeaves.pdf",
+        "ver"     : 1.1
+      }
+    ]
   }
 ]
