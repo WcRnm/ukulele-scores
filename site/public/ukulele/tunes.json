@@ -125,6 +125,13 @@
         "composer"  : "Fernando Sor",
         "pdf"       : "Etude_no_22_op_35 [Baritone].pdf",
         "ver"       : "1.0"
+      },
+      { "name"      : "Truman Sleeps",
+        "tuning"    : "Low G (GBEA)",
+        "composer"  : "Philip Glass",
+        "arranger"  : "Giovanni Albini",
+        "pdf"       : "Truman-Sleeps-Ukulele_(low_G).pdf",
+        "ver"       : "1.0"
       }
     ]
   },
