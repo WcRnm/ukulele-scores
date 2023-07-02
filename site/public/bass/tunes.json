@@ -9,7 +9,7 @@
       { "name"     : "Beatles Bass Tabs",
         "composer" : "arr: Rory McLeod",
         "pdf"      : "Beatles_Bass_Tabs.pdf",
-        "ver"      : "1.1"
+        "ver"      : "1.2"
       },
       { "name"     : "Walk of Life",
         "composer" : "Dire Straits",
@@ -35,6 +35,11 @@
         "composer" : "UB40, Lord Creator",
         "pdf"      : "Kingston_Town_BASS.pdf",
         "ver"      : ""
+      },
+      { "name"     : "Made You Look",
+        "composer" : "Megan Trainor",
+        "pdf"      : "Made You Look [Bass].pdf",
+        "ver"      : "1.0"
       }
     ]
   },
