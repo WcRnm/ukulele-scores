@@ -52,8 +52,9 @@
         "ver"      : "1.0"
       },
       { "name"     : "July Eliot Rock Band 2023",
+        "composer" : "various",
         "pdf"      : "July Eliot Rock Band 2023.pdf",
-        "ver"      : "1.1"
+        "ver"      : "1.2"
       }
     ]
   },
