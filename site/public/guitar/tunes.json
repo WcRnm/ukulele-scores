@@ -1,0 +1,24 @@
+[
+  { "genre" : "Slack Key",
+    "tunes" : [
+      { "name"      : "Slack Key #2 (Mahina's Trot)",
+        "tuning"    : "Taropatch",
+        "composer"  : "Sonny Chillingworth",
+        "arranger"  : "",
+        "pdf"       : "Mahinas_Trot.pdf",
+        "yt"        : "https://youtu.be/aumrfY4ppWI",
+        "ver"       : "1.0",
+        "notes"     : "Adapted from Ozzie Kotani's guitar tabs"
+      },
+      { "name"      : "Liloa's Mele (Grandson's Lulabye)",
+        "tuning"    : "Taropatch",
+        "composer"  : "Sonny Chillingworth",
+        "arranger"  : "",
+        "pdf"       : "Liloas_Mele.pdf",
+        "yt"        : "https://youtu.be/JfoGq527LuY",
+        "ver"       : "1.0",
+        "notes"     : "Adapted from Ozzie Kotani's guitar tabs"
+      }
+    ]
+  }
+]        

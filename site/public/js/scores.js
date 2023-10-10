@@ -1,6 +1,7 @@
 const pages = [
   "ukulele",
   "bass",
+  "guitar",
   "about"
 ];
 
@@ -28,7 +29,7 @@ function Cell(type, text, url, section) {
 }
 
 function handleTableData(section, data) {
-    const isUkulele = (section === 'ukulele');
+    const showTuning = (section === 'ukulele') || (section === 'guitar');
     data.forEach(function (item, index) {
       var content = document.getElementById(section)
       var div = document.createElement('div');
@@ -52,7 +53,7 @@ function handleTableData(section, data) {
       const headerRow = document.createElement('tr');
       headerRow.appendChild(Cell('th', 'Tune'));
       headerRow.appendChild(Cell('th', 'Composer'));
-      if (isUkulele) {
+      if (showTuning) {
         headerRow.appendChild(Cell('th', 'Tuning'));
         headerRow.appendChild(Cell('th', 'Notes'));
       }
@@ -63,7 +64,7 @@ function handleTableData(section, data) {
         const tr = document.createElement('tr');
         tr.appendChild(Cell('th', tune.name, tune.pdf + '?' + (tune.ver ? tune.ver : "0"), section));
         tr.appendChild(Cell('td', tune.composer));
-        if (isUkulele) {
+        if (showTuning) {
           tr.appendChild(Cell('td', tune.tuning));
           tr.appendChild(Cell('td', tune.notes));
         }
@@ -88,4 +89,5 @@ function createTable(name) {
 
 createTable('ukulele');
 createTable('bass');
+createTable('guitar');
   
