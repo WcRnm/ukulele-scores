@@ -1,4 +1,16 @@
 [
+  { "genre" : "Reference",
+    "tunes" :[
+      { "name"      : "Triple-Key Song Dex",
+        "tuning"    : "",
+        "composer"  : "",
+        "arranger"  : "",
+        "pdf"       : "Speedy_Song_Dex.pdf",
+        "ver"       : "0.1"
+      }
+    ]
+
+  },
   { "genre" : "Rock/Pop",
     "tunes" : [
       { "name"      : "Love of My Life",
