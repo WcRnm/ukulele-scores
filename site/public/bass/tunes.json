@@ -55,6 +55,11 @@
         "composer" : "various",
         "pdf"      : "July Eliot Rock Band 2023.pdf",
         "ver"      : "1.2"
+      },
+      { "name"     : "Dancing in the Moonlight",
+        "composer" : "King Harvest",
+        "pdf"      : "Dancing_in_the_Moonlight[bass].pdf",
+        "ver"      : "0.6"
       }
     ]
   },
