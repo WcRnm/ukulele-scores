@@ -13,13 +13,6 @@
   },
   { "genre" : "Rock/Pop",
     "tunes" : [
-      { "name"      : "Love of My Life",
-        "tuning"    : "Low G",
-        "composer"  : "Freddie Mercury (Queen)",
-        "arranger"  : "Jeremy Choi, Kevin Hearle",
-        "pdf"       : "queen_love-of-my-life.pdf",
-        "ver"       : "0.5"
-      },
       { "name"      : "Autobahn",
         "tuning"    : "High G",
         "composer"  : "Kraftwerk",
@@ -27,6 +20,21 @@
         "pdf"       : "kraftwerk-autobahn.pdf",
         "yt"        : "https://www.youtube.com/watch?v=hddaUYW2dko",
         "ver"       : "wip"
+      },
+      { "name"      : "Big Blue Sun",
+        "tuning"    : "High G",
+        "composer"  : "Adrian Belew",
+        "arranger"  : null,
+        "pdf"       : "Big_Blue_Sun.pdf",
+        "yt"        : "https://youtu.be/CmduSh9iqiA?si=yFYCNtOzq-motz68",
+        "ver"       : "1.0"
+      },
+      { "name"      : "Love of My Life",
+        "tuning"    : "Low G",
+        "composer"  : "Freddie Mercury (Queen)",
+        "arranger"  : "Jeremy Choi, Kevin Hearle",
+        "pdf"       : "queen_love-of-my-life.pdf",
+        "ver"       : "0.5"
       },
       { "name"      : "Linus & Lucy",
         "tuning"    : "Low G",
