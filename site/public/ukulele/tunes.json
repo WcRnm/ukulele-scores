@@ -29,6 +29,12 @@
         "yt"        : "https://youtu.be/CmduSh9iqiA?si=yFYCNtOzq-motz68",
         "ver"       : "1.4"
       },
+      { "name"      : "Here Comes The Sun",
+        "tuning"    : "Low G",
+        "composer"  : "George Harrison",
+        "pdf"       : "Here Comes The Sun.pdf",
+        "ver"       : "1.0"
+      },
       { "name"      : "Love of My Life",
         "tuning"    : "Low G",
         "composer"  : "Freddie Mercury (Queen)",
