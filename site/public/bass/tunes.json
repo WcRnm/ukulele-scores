@@ -21,6 +21,11 @@
         "pdf"      : "All_My_Loving_[Bass].pdf",
         "ver"      : ""
       },
+      { "name"     : "Fields of Gold",
+        "composer" : "Sting",
+        "pdf"      : "Fields_of_Gold_BASS.pdf",
+        "ver"      : "1.0"
+      },
       { "name"     : "From Me to You",
         "composer" : "Beatles",
         "pdf"      : "From_Me_to_You(Bass).pdf",
