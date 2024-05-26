@@ -65,6 +65,16 @@
         "composer" : "King Harvest",
         "pdf"      : "Dancing_in_the_Moonlight[bass].pdf",
         "ver"      : "0.6"
+      },
+      { "name"     : "Dancing in the Dark",
+        "composer" : "Springsteen",
+        "pdf"      : "dancing-in-the-dark-BASS.pdf",
+        "ver"      : "0.6"
+      },
+      { "name"     : "Dancing in the Dark (in A)",
+        "composer" : "Springsteen",
+        "pdf"      : "dancing-in-the-dark-BASS(A).pdf",
+        "ver"      : "0.6"
       }
     ]
   },
