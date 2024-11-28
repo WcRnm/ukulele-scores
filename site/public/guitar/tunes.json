@@ -18,6 +18,24 @@
         "yt"        : "https://youtu.be/JfoGq527LuY",
         "ver"       : "1.0",
         "notes"     : "Adapted from Ozzie Kotani's guitar tabs"
+      },
+      { "name"      : "Hapuna Sunset",
+        "tuning"    : "Taropatch",
+        "composer"  : "Charles Brotman",
+        "arranger"  : "",
+        "pdf"       : "Hapuna Sunset.pdf",
+        "yt"        : "",
+        "ver"       : "1.0",
+        "notes"     : ""
+      },
+      { "name"      : "Five Song Medley",
+        "tuning"    : "Taropatch",
+        "composer"  : "Ray Kane",
+        "arranger"  : "",
+        "pdf"       : "Five Song Medley.pdf",
+        "yt"        : "",
+        "ver"       : "1.0",
+        "notes"     : ""
       }
     ]
   }
