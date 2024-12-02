@@ -75,6 +75,11 @@
         "composer" : "Springsteen",
         "pdf"      : "dancing-in-the-dark-BASS(A).pdf",
         "ver"      : "0.6"
+      },
+      { "name"     : "You Might Think",
+        "composer" : "The Cars",
+        "pdf"      : "Cars - You Might Think.pdf",
+        "ver"      : "1.0"
       }
     ]
   },
