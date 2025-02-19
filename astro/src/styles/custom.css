@@ -1,0 +1,15 @@
+@import url(pico/css/pico.jade.css);
+
+.grid {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 1fr;
+  column-gap: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+}

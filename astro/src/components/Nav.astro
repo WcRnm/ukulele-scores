@@ -1,0 +1,22 @@
+---
+function pageUrl(page : string) {
+  return import.meta.env.BASE_URL + page;
+}
+---
+
+<nav>
+  <ul>
+    <li>
+      <button class="outline">
+        <a href={import.meta.env.BASE_URL}>
+          <big><strong>Ukulele Scores</strong></big>
+        </a>
+      </button>
+    </li>
+  </ul>
+  <ul>
+    <li><a href={pageUrl("/ukulele")}>Ukulele</a></li>
+    <li><a href={pageUrl("/bass")}>Bass</a></li>
+    <li><a href={pageUrl("/guitar")}>Guitar</a></li>
+  </ul>
+</nav>

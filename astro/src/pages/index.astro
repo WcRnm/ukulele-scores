@@ -1,11 +1,22 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="Ukulele Scores">
+	<p>Welcome to <strong>ukulele-scores</strong>.</p> 
+	
+	<p>This site contains musical scores for the ukulele, bass, and slack key guitar
+		that I have created using the open source <a href="https://musescore.org">Musescore</a> notation app.</p>
+	
+	<p>The Musescore files and the source code for this website are in a Github repository.</p>
+	
+	This site
+	<ul>
+		<li>uses <a href="https://picocss.com/">PicoCSS</a> for styling.</li>
+		<li>is built using <a href="https://astro.build/">Astro</a></li>
+		<li>is hosted on <a href="https://pages.github.com/">GitHub Pages</a></li>
+	</ul>
+
+	
+	Thanks for visiting. ~R
 </Layout>

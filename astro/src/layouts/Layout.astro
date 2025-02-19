@@ -1,22 +1,23 @@
+---
+import '@styles/custom.css'
+
+import Head from '@components/Head.astro'
+import Nav from '@components/Nav.astro';
+
+const { title } = Astro.props;
+---
+
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
-	</head>
+	<Head title={title} />
 	<body>
-		<slot />
+		<header>
+			<div class="container">
+				<Nav />
+			</div>
+		</header>
+		<main class="container">
+      <slot />
+		</main>
 	</body>
 </html>
-
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>
