@@ -3,9 +3,12 @@ import Layout from "@layouts/Layout.astro";
 import ScoreTable from "@components/ScoreTable.astro";
 
 import { getCollection } from "astro:content";
-const scores = await getCollection("bass");
+const scores = await getCollection("scores", ({ id }) => {
+  console.log(id);
+  return id.startsWith('bass');
+});
 ---
 
 <Layout title="Bass Scores">
-  <ScoreTable type="Bass" scores={scores}/>
+  <ScoreTable type="bass" scores={scores}/>
 </Layout>

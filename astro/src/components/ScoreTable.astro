@@ -1,11 +1,11 @@
 ---
 const { type, scores } = Astro.props;
 ---
-<h1>{type} Scores</h1>
+<h1>{type}</h1>
 <table class="striped">
   <thead>
     <tr>
-      <th scope="col">Name</th>
+      <th scope="col">Score</th>
       <th scope="col">Composer</th>
       <th scope="col">Tuning</th>
       <th scope="col">Notes</th>
@@ -14,12 +14,13 @@ const { type, scores } = Astro.props;
   <tbody>
     {
       scores.map((score) => {
+        const url = import.meta.env.BASE_URL + '/' + type + '/' + score.data.pdf;
         return (
             <tr>
-              <td><a href="">{score.data.name}</a> v{score.data.ver}</td>
+              <td><a href={url} target="score">{score.data.name}</a> v{score.data.ver}</td>
               <td>{score.data.composer}</td>
               <td>{score.data.tuning}</td>
-              <td>{score.data.notes}</td>
+              <td>{score.data.note}</td>
             </tr>
         );
       })

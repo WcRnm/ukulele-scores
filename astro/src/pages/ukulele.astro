@@ -3,9 +3,12 @@ import Layout from "@layouts/Layout.astro";
 import ScoreTable from "@components/ScoreTable.astro";
 
 import { getCollection } from "astro:content";
-const scores = await getCollection("ukulele");
+const scores = await getCollection("scores", ({ id }) => {
+  console.log(id);
+  return id.startsWith('ukulele');
+});
 ---
 
 <Layout title="Ukulele Scores">
-  <ScoreTable type="Ukulele" scores={scores}/>
+  <ScoreTable type="ukulele" scores={scores}/>
 </Layout>
