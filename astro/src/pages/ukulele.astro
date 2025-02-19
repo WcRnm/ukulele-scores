@@ -1,7 +1,11 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "@layouts/Layout.astro";
+import ScoreTable from "@components/ScoreTable.astro";
+
+import { getCollection } from "astro:content";
+const scores = await getCollection("ukulele");
 ---
 
 <Layout title="Ukulele Scores">
-    <h1>Ukulele Scores</h1>
+  <ScoreTable type="Ukulele" scores={scores}/>
 </Layout>

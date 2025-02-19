@@ -1,0 +1,28 @@
+---
+const { type, scores } = Astro.props;
+---
+<h1>{type} Scores</h1>
+<table class="striped">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Composer</th>
+      <th scope="col">Tuning</th>
+      <th scope="col">Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    {
+      scores.map((score) => {
+        return (
+            <tr>
+              <td><a href="">{score.data.name}</a> v{score.data.ver}</td>
+              <td>{score.data.composer}</td>
+              <td>{score.data.tuning}</td>
+              <td>{score.data.notes}</td>
+            </tr>
+        );
+      })
+    }
+  </tbody>
+</table>
