@@ -5,6 +5,7 @@ ver:    '1.0'
 
 tuning:     Taropatch
 composer:   Sonny Chillingworth
+genre:      Slack Key
 
 yt:     https://youtu.be/JfoGq527LuY
 note:   Adapted from Ozzie Kotani's guitar tabs

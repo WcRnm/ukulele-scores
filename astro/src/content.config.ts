@@ -6,10 +6,11 @@ const scores = defineCollection({
     schema: () => z.object({
         name: z.string(),
         ver: z.string(),
-        tuning: z.string(),
+        tuning: z.string().optional(),
 
         arranger: z.string().optional(),
         composer: z.string(),
+        genre: z.string(),
 
         pdf: z.string(), 
 
