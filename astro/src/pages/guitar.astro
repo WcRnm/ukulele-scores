@@ -1,7 +1,19 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
+
+import { getCollection } from "astro:content";
+const scores = await getCollection("guitar");
 ---
 
 <Layout title="Guitar Scores">
-    <h1>Guitar Scores</h1>
+  <h1>Guitar Scores</h1>
+  {
+    scores.map((score) => {
+      return (
+        <article>
+          <h2>{score.data.name}</h2>
+        </article>
+      );
+    })
+  }
 </Layout>
