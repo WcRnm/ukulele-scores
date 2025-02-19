@@ -4,7 +4,6 @@ import ScoreTable from "@components/ScoreTable.astro";
 
 import { getCollection } from "astro:content";
 const scores = await getCollection("scores", ({ id }) => {
-  console.log(id);
   return id.startsWith('ukulele');
 });
 ---

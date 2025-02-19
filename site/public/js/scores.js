@@ -6,8 +6,6 @@ const pages = [
 ];
 
 function onShow(page) {
-  console.log(page);
-
   pages.forEach(p => {
     document.getElementById(p).style.display = (p == page) ? 'block' : 'none';
   });
