@@ -1,0 +1,37 @@
+---
+import GenreTable from "@components/GenreTable.astro";
+
+const { type, scores } = Astro.props;
+
+let _genre = "";
+function filterByGenre(score) {
+    return _genre === score.data.genre;
+}
+
+function getScores(genre: string) {
+  _genre = genre;
+  return  Object.values(scores).filter(filterByGenre);
+}
+
+
+let genres = [];
+let genreScores = [];
+scores.forEach(score => {
+  if (!genres.includes(score.data.genre)) {
+    genres.push(score.data.genre);
+    genreScores.push({
+      genre: score.data.genre,
+      scores: getScores(score.data.genre),
+    })
+  }
+});
+
+---
+<h1>{type}</h1>
+  {
+    genreScores.map((entry) => {
+      return (
+        <GenreTable genre={entry.genre} scores={entry.scores} type={type} />
+      )
+    })
+  }

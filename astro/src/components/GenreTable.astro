@@ -1,0 +1,29 @@
+---
+const { genre, scores, type } = Astro.props;
+---
+<h2>{genre}</h2>
+<table class="striped">
+  <thead>
+    <tr>
+      <th scope="col">Score</th>
+      <th scope="col">Composer</th>
+      <th scope="col">Tuning</th>
+      <th scope="col">Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    {
+      scores.map((score) => {
+        const url = import.meta.env.BASE_URL + '/' + type + '/' + score.data.pdf;
+        return (
+            <tr>
+              <td><a href={url} target="score">{score.data.name}</a> v{score.data.ver}</td>
+              <td>{score.data.composer}</td>
+              <td>{score.data.tuning}</td>
+              <td>{score.data.note}</td>
+            </tr>
+        );
+      })
+    }
+  </tbody>
+</table>

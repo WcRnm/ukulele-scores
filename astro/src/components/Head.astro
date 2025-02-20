@@ -1,0 +1,23 @@
+---
+const { title } = Astro.props;
+
+const svg = import.meta.env.BASE_URL + "/favicon.svg";
+const ico = import.meta.env.BASE_URL + "/favicon.ico";
+const png96 = import.meta.env.BASE_URL + "/favicon-96x96.png";
+const apple = import.meta.env.BASE_URL + "/apple-touch-icon.png";
+---
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content={Astro.generator} />
+    <meta name="apple-mobile-web-app-title" content="Ukulele Scores" />
+
+    <link rel="icon" type="image/png" href={png96} sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href={svg} />
+    <link rel="shortcut icon" href={ico} />
+    <link rel="apple-touch-icon" sizes="180x180" href={apple} />
+    <link rel="manifest" href="/site.webmanifest" />
+    
+    <title>{title}</title>
+</head>

@@ -1,0 +1,13 @@
+---
+import Layout from "@layouts/Layout.astro";
+import ScoreTable from "@components/ScoreTable.astro";
+
+import { getCollection } from "astro:content";
+const scores = await getCollection("scores", ({ id }) => {
+  return id.startsWith('guitar');
+});
+---
+
+<Layout title="Guitar Scores">
+  <ScoreTable type="guitar" scores={scores}/>
+</Layout>
