@@ -1,29 +1,37 @@
 ---
+import GenreTable from "@components/GenreTable.astro";
+
 const { type, scores } = Astro.props;
+
+let _genre = "";
+function filterByGenre(score) {
+    return _genre === score.data.genre;
+}
+
+function getScores(genre: string) {
+  _genre = genre;
+  return  Object.values(scores).filter(filterByGenre);
+}
+
+
+let genres = [];
+let genreScores = [];
+scores.forEach(score => {
+  if (!genres.includes(score.data.genre)) {
+    genres.push(score.data.genre);
+    genreScores.push({
+      genre: score.data.genre,
+      scores: getScores(score.data.genre),
+    })
+  }
+});
+
 ---
 <h1>{type}</h1>
-<table class="striped">
-  <thead>
-    <tr>
-      <th scope="col">Score</th>
-      <th scope="col">Composer</th>
-      <th scope="col">Tuning</th>
-      <th scope="col">Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    {
-      scores.map((score) => {
-        const url = import.meta.env.BASE_URL + '/' + type + '/' + score.data.pdf;
-        return (
-            <tr>
-              <td><a href={url} target="score">{score.data.name}</a> v{score.data.ver}</td>
-              <td>{score.data.composer}</td>
-              <td>{score.data.tuning}</td>
-              <td>{score.data.note}</td>
-            </tr>
-        );
-      })
-    }
-  </tbody>
-</table>
+  {
+    genreScores.map((entry) => {
+      return (
+        <GenreTable genre={entry.genre} scores={entry.scores} type={type} />
+      )
+    })
+  }
