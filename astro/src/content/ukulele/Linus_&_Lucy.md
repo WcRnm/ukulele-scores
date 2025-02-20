@@ -1,5 +1,4 @@
 ---
-arranger: null
 composer: Vince Guaraldi
 genre: Rock/Pop
 name: Linus & Lucy

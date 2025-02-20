@@ -1,5 +1,4 @@
 ---
-arranger: null
 composer: Kraftwerk
 genre: Rock/Pop
 name: Autobahn

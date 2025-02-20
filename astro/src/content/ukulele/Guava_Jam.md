@@ -6,5 +6,4 @@ name: Guava Jam
 pdf: guava-jam.pdf
 tuning: High G
 ver: wip
-yt: null
 ---

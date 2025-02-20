@@ -1,5 +1,4 @@
 ---
-arranger: null
 composer: White Stripes
 genre: Rock/Pop
 name: We Are Going to be Friends
