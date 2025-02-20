@@ -17,7 +17,7 @@ const { genre, scores, type } = Astro.props;
         const url = import.meta.env.BASE_URL + '/' + type + '/' + score.data.pdf;
         return (
             <tr>
-              <td><a href={url} target="score">{score.data.name}</a> v{score.data.ver}</td>
+              <td><a href={url} target="score">{score.data.name}</a> <small>{score.data.ver}</small></td>
               <td>{score.data.composer}</td>
               <td>{score.data.tuning}</td>
               <td>{score.data.note}</td>
