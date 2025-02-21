@@ -14,7 +14,7 @@ const { genre, scores, type } = Astro.props;
   <tbody>
     {
       scores.map((score) => {
-        const url = import.meta.env.BASE_URL + '/' + type + '/' + score.data.pdf;
+        const url = import.meta.env.BASE_URL + '/' + type + '/' + score.data.pdf + '?' + (score.data.ver?score.data.ver:"0.0");
         return (
             <tr>
               <td><a href={url} target="score">{score.data.name}</a> <small>{score.data.ver}</small></td>

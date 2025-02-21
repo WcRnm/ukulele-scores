@@ -7,14 +7,15 @@ function pageUrl(page : string) {
 <nav>
   <ul>
     <li>
-      <button class="outline">
-        <a href={import.meta.env.BASE_URL}>
-          <big><strong>Ukulele Scores</strong></big>
-        </a>
+      <button class="primary" disabled>
+        <big><strong>Ukulele Scores</strong></big>
       </button>
     </li>
-    <li><a href={pageUrl("/ukulele")}>Ukulele</a></li>
+    <li><a href={pageUrl("")}>Ukulele</a></li>
     <li><a href={pageUrl("/bass")}>Bass</a></li>
     <li><a href={pageUrl("/guitar")}>Guitar</a></li>
+  </ul>
+  <ul>
+    <li><a href={pageUrl("/about")}>About</a></li>
   </ul>
 </nav>
