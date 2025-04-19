@@ -1,7 +1,7 @@
 ---
 name:   Liloa's Mele (Grandson's Lulabye)
-pdf:    Liloas_Mele.pdf
-ver:    '1.0'
+pdf:    Liloa's Mele.pdf
+ver:    '1.1'
 
 tuning:     Taropatch
 composer:   Sonny Chillingworth
