@@ -7,6 +7,7 @@ const scores = defineCollection({
         name: z.string(),
         ver: z.string(),
         tuning: z.string().optional(),
+        key: z.string().optional(),
 
         arranger: z.string().optional(),
         composer: z.string(),
