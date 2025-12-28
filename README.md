@@ -2,4 +2,4 @@
 
 Ukulele music scores/tabs created using [MuseScore](https://musescore.org).
 
-PDF's are published on [https://ukulele-scores.netlify.app](https://ukulele-scores.netlify.app)
+PDF's are published on [https://github.com/WcRnm/ukulele-scores](https://github.com/WcRnm/ukulele-scores)
