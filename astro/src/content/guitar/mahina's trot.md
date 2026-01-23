@@ -1,5 +1,5 @@
 ---
-name:   Slack Key #2 (Mahina''s Trot)
+name:   "Slack Key #2 (Mahina's Trot)"
 pdf:    Mahinas_Trot.pdf
 ver:    '1.1'
 
